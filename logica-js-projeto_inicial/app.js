@@ -7,7 +7,7 @@ while(chute != numeroSecreto){
   chute=prompt('Escolha um número entre 1 e 20');
 
 if(chute == numeroSecreto){
-  alert('Isso ai!Você acertou o número secreto '+ numeroSecreto + ' com '+ tentativas +' tentativas.');
+  break
 }else{
   if(numeroSecreto > chute){
 alert('O número secreto é maior que '+ chute);
@@ -17,3 +17,10 @@ alert('O número secreto é maior que '+ chute);
   tentativas++;
 }
 }
+let palavraTentativa = tentativas >1? ' tentativas' : ' tentativa';
+alert('Isso ai!Você acertou o número secreto '+ numeroSecreto + ' com '+ tentativas + palavraTentativa +'.');
+//if(tentativas>1){
+ // alert('Isso ai!Você acertou o número secreto '+ numeroSecreto + ' com '+ tentativas +' tentativas.');
+//}else{
+ // alert('Isso ai!Você acertou o número secreto '+ numeroSecreto + ' com '+ tentativas +' tentativa.');
+//}
