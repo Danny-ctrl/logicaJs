@@ -1,4 +1,5 @@
 let nome=prompt('Qual seu nome?')
+alert(nome +' Bem vindo(a)!')
 let dia = prompt(nome +' qual dia da semana é hoje?');
 let sabado = 'sabado';
 let domingo = 'domingo';
