@@ -5,11 +5,11 @@ let sabado = 'sabado';
 let domingo = 'domingo';
 
 if (dia  == sabado ){
-alert('Bom fim de semana');
+alert('Bom fim de semana '+ nome);
 }else if(dia==domingo){
-  alert('Bom fim de semana');
+  alert('Bom fim de semana ' + nome);
 }else{
-  alert('Boa semana');
+  alert('Boa semana ' + nome);
 }
 
 let numeroDigitado = prompt('Digite um numero');
